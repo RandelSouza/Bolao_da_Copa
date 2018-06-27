@@ -19,7 +19,7 @@ public class ConnectionFactory {
     private String driver = "org.postgresql.Driver";
     private String path = "jdbc:postgresql://localhost:5432/Bolao_da_Copa";
     private String user = "postgres";
-    private String password = "5xz1kif";    
+    private String password = "Your password";    
     public Connection connect;
  
     public void connection(){
