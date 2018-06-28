@@ -11,8 +11,13 @@ import javax.swing.JOptionPane;
  *
  * @author randel
  */
+// Classe ApostaDao. Faz a insersão da aposta no banco de dados assim como a exclusão de uma determinada aposta presente
+// no banco de dados. Os métodos de inserção e exclusão necessitam de objetos Aposta que são preenchidos com informações 
+// vindas da interação com o usuário. Esta interação é criada apartir de janelas swing e outros componentes de interação 
+// gráfica com o usuário.
+
 public class ApostaDao {   
-    ConnectionFactory connect = new ConnectionFactory();
+    ConnectionFactory connect = new ConnectionFactory(); 
     Aposta apostaPojo = new Aposta();   
     String sql = "";
     
