@@ -26,7 +26,7 @@ public class PartidaDao {
         try {
             java.sql.Date dataSQL = new Date(partidaPojo.getData_partida().getTime());
             connect.connection();            
-            PreparedStatement pst = connect.connect.prepareStatement("INSERT INTO partida(qtd_gols_time_visitante, qtd_gols_time_casa, estadio, data_partida, hora, time_casa,  time_visitante) values(?, ?, ?, ?, ?, ?, ?)", Statement.RETURN_GENERATED_KEYS);            
+            PreparedStatement pst = connect.connect.prepareStatement("INSERT INTO partida(qtd_gols_time_visitante, qtd_gols_time_casa, estadio, data_partida, hora, time_casa,  time_visitante) VALUES(?, ?, ?, ?, ?, ?, ?)", Statement.RETURN_GENERATED_KEYS);            
             
             pst.setInt(1, partidaPojo.getQtd_gols_time_visitante());
             pst.setInt(2,  partidaPojo.getQtd_gols_time_casa()); 
