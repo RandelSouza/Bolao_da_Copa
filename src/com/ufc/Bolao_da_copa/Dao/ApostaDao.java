@@ -21,6 +21,7 @@ public class ApostaDao {
     Aposta apostaPojo = new Aposta();   
     String sql = "";
     
+    // Método que insere uma aposta no banco de dados.
     public void salvar(Aposta apostaPojo){
         sql = "INSERT INTO aposta(uid, palpite_gols_time_visitante, "+
               "palpite_gols_time_casa, empate, pontos_usuario, pid) " +
@@ -42,8 +43,9 @@ public class ApostaDao {
         }                        
     }        
     
+    // Método que exlui uma aposta no banco de dados.
     public void excluir(Aposta apostaPojo){
-            try {
+        try {
             connect.connection();
             PreparedStatement pst = connect.connect.prepareStatement("DELETE FROM aposta WHERE aid=?");            
             pst.setInt(1, apostaPojo.getAid());
