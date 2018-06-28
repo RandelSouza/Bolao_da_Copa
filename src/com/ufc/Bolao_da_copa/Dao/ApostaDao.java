@@ -23,9 +23,9 @@ public class ApostaDao {
     
     // Método que insere uma aposta no banco de dados.
     public void salvar(Aposta apostaPojo){
-        sql = "INSERT INTO aposta(uid, palpite_gols_time_visitante, "+
+        sql = "INSERT INTO aposta(uid, palpite_gols_time_visitante, " +
               "palpite_gols_time_casa, empate, pontos_usuario, pid) " +
-              "VALUES(?, ?, ?, ?, ?, ?) ";                
+              "VALUES(?, ?, ?, ?, ?, ?);";                
         try {
             connect.connection();
             PreparedStatement pst = connect.connect.prepareStatement(sql);
@@ -47,7 +47,7 @@ public class ApostaDao {
     public void excluir(Aposta apostaPojo){
         try {
             connect.connection();
-            PreparedStatement pst = connect.connect.prepareStatement("DELETE FROM aposta WHERE aid=?");            
+            PreparedStatement pst = connect.connect.prepareStatement("DELETE FROM aposta WHERE aid=?;");            
             pst.setInt(1, apostaPojo.getAid());
             pst.execute();
             connect.disconect();        
