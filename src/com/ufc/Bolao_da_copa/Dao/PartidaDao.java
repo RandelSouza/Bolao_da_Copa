@@ -22,7 +22,7 @@ public class PartidaDao {
     String data_partida;    
     SimpleDateFormat formatacao = new SimpleDateFormat("yyyy-MM-dd");
     
-    // Método que salva uma partida no Banco de Dados.
+    // Método que insere uma partida no Banco de Dados.
     public void salvar(Partida partidaPojo){       
         try {
             java.sql.Date dataSQL = new Date(partidaPojo.getData_partida().getTime());
@@ -89,7 +89,7 @@ public class PartidaDao {
         
         return partidaPojo;
     }
-    // Método que exclui uma partida do Banco de Dados.
+    // Método que deleta uma partida do Banco de Dados.
     public void excluirPartida(Partida partidaPojo){                
         try {
             connect.connection();
@@ -105,7 +105,7 @@ public class PartidaDao {
         }        
     }    
     
-    // Método que edita uma partida do Banco de Dados.
+    // Método que atualiza uma partida do Banco de Dados.
     public void editarPartida(Partida partidaPojo){
         
         try {
