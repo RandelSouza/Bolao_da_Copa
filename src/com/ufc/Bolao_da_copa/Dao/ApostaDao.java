@@ -43,7 +43,7 @@ public class ApostaDao {
         }                        
     }        
     
-    // Método que exlui uma aposta no banco de dados.
+    // Método que deleta uma aposta do banco de dados.
     public void excluir(Aposta apostaPojo){
         try {
             connect.connection();
