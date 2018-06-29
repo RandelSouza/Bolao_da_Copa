@@ -15,6 +15,7 @@ import org.jdesktop.swingx.autocomplete.AutoCompleteDecorator;
  *
  * @author randel
  */
+// Formulário de cadastro de aposta.
 public final class Form_CadastroAposta extends javax.swing.JFrame {
     int flag = 0;
     int resposta, tid1, tid2;
