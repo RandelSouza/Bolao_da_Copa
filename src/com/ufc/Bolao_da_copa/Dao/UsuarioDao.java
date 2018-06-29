@@ -93,6 +93,7 @@ public class UsuarioDao {
         return usuarioPojo;
     }
     
+    // Métod que vefirica se um login de usuário já existe e retorna um boolean como resultado.
     public boolean verificarLogin(Usuario usuarioPojo){
         try {
             connect.connection();
