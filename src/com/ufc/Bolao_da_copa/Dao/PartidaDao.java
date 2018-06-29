@@ -46,7 +46,7 @@ public class PartidaDao {
         }
     }
 
-    // Método que recupera as informações de uma partida que está contida dentro Banco de Dados.
+    // Método que recupera as informações de uma partida que está contida dentro do Banco de Dados.
     public Partida buscarPartida(Partida partidaPojo){        
         try {
             connect.connection();
