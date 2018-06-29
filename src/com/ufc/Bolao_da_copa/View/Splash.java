@@ -1,23 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.ufc.Bolao_da_copa.View;
-
 /**
  *
  * @author randel
  */
 public class Splash extends javax.swing.JFrame {
-
     /**
      * Creates new form Splash
      */
     public Splash() {
         initComponents();
     }
-
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
