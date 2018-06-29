@@ -15,6 +15,7 @@ public class TimeDao {
     boolean estado = false;
     ConnectionFactory connect = new ConnectionFactory();    
     
+    // Método que salva um time no Banco de Dados.
     public void salvar(Time timePojo){       
         try {
             connect.connection();
@@ -31,6 +32,7 @@ public class TimeDao {
         }
     }    
     
+    // Método que recupera um time do Banco de Dados.
     public Time buscarTime(Time timePojo){        
         try {
             connect.connection();
@@ -58,6 +60,7 @@ public class TimeDao {
         return timePojo;
     }
     
+    // Método que atualiza um time do Banco de Dados.
     public void editarTime(Time timePojo){
         
         try {
@@ -78,6 +81,7 @@ public class TimeDao {
         }       
     }
     
+    // Método que deleta um time do Banco de Dados.
     public void excluirTime(Time timePojo){                
         try {
             connect.connection();
