@@ -61,7 +61,7 @@ public class Splash extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel3.setText("Criado por: Randel Souza e Francisco Robson");
+        jLabel3.setText("Criado por: Randel Souza");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 350, -1, 80));
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 10)); // NOI18N
