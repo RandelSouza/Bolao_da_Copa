@@ -49,6 +49,7 @@ public class UsuarioDao {
         }       
     }     
     
+    // Método que faz a verificação do login.
     public Usuario login(Usuario usuarioPojo){
         try {
             MessageDigest md = MessageDigest.getInstance("SHA-256");
