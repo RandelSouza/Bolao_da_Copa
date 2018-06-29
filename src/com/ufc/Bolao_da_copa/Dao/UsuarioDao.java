@@ -18,6 +18,7 @@ public class UsuarioDao {
     ConnectionFactory connect = new ConnectionFactory();    
     boolean estado = false;
     
+    // Método que insere um usuário no Banco de Dados.
     public void salvar(Usuario usuarioPojo){       
         try {
             MessageDigest md = MessageDigest.getInstance("SHA-256");
