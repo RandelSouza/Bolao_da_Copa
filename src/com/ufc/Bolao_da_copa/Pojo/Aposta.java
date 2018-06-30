@@ -11,7 +11,7 @@ public class Aposta {
     private boolean empate;                       // Valor boleano. Não esta sendo usado.
     private Integer pontos_usuario;               // Ainda não esta sendo utilizado.
     private int pid;                              // Identificador da partida.
-    private int aid;
+    private int aid;                              // Identificador da aposta.
     private String pesquisa;
 
     public String getPesquisa() {
