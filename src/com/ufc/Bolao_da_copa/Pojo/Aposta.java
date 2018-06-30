@@ -14,6 +14,7 @@ public class Aposta {
     private int aid;                              // Identificador da aposta.
     private String pesquisa;                      // Guarda a pesquisa.
 
+    // Obtem a pesquisa.
     public String getPesquisa() {
         return pesquisa;
     }
