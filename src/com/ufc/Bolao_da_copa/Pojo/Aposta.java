@@ -9,7 +9,7 @@ public class Aposta {
     private Integer palpite_gols_time_visitante;  // Guardará o palpite de gols para o time visitante.
     private Integer palpite_gols_time_casa;       // Guardará o palpite de gols para o time da casa.
     private boolean empate;                       // Valor boleano.
-    private Integer pontos_usuario;
+    private Integer pontos_usuario;               // Ainda não esta sendo utilizado.
     private int pid;
     private int aid;
     private String pesquisa;
