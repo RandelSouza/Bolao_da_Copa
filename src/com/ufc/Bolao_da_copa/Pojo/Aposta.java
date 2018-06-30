@@ -58,7 +58,8 @@ public class Aposta {
     public Integer getPalpite_gols_time_visitante() {
         return palpite_gols_time_visitante;
     }
-
+     
+    // Atribui o palpite de gols do time Visitante.
     public void setPalpite_gols_time_visitante(Integer palpite_gols_time_visitante) {
         this.palpite_gols_time_visitante = palpite_gols_time_visitante;
     }
