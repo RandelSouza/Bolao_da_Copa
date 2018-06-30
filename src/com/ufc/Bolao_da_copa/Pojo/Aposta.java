@@ -34,6 +34,7 @@ public class Aposta {
         this.aid = aid;
     }
     
+    // Obtem o identificador da partida.
     public int getPid() {
         return pid;
     }
