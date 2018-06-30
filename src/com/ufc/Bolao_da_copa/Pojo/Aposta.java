@@ -24,6 +24,7 @@ public class Aposta {
         this.pesquisa = pesquisa;
     }
     
+    // Obtem o identificador da aposta.
     public int getAid() {
         return aid;
     }
