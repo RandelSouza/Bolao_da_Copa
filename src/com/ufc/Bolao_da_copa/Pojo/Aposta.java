@@ -19,7 +19,7 @@ public class Aposta {
         return pesquisa;
     }
      
-    // Seta a pesquisa.
+    // Atribui a pesquisa.
     public void setPesquisa(String pesquisa) {
         this.pesquisa = pesquisa;
     }
@@ -29,7 +29,7 @@ public class Aposta {
         return aid;
     }
 
-    // Seta o identificador da aposta.
+    // Atribui o identificador da aposta.
     public void setAid(int aid) {
         this.aid = aid;
     }
@@ -39,6 +39,7 @@ public class Aposta {
         return pid;
     }
 
+    // Atribui o identificador da partida.
     public void setPid(int pid) {
         this.pid = pid;
     }
