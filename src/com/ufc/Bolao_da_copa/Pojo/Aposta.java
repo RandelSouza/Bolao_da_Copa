@@ -8,7 +8,7 @@ public class Aposta {
     private Integer uid;                          // Identificador do usuário.
     private Integer palpite_gols_time_visitante;  // Guardará o palpite de gols para o time visitante.
     private Integer palpite_gols_time_casa;       // Guardará o palpite de gols para o time da casa.
-    private boolean empate;                       // Valor boleano.
+    private boolean empate;                       // Valor boleano. Não esta sendo usado.
     private Integer pontos_usuario;               // Ainda não esta sendo utilizado.
     private int pid;
     private int aid;
