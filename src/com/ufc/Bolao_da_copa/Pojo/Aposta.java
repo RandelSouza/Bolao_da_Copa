@@ -89,6 +89,7 @@ public class Aposta {
         return pontos_usuario;
     }
 
+    // Atribui os pontos do usuário.
     public void setPontos_usuario(Integer pontos_usuario) {
         this.pontos_usuario = pontos_usuario;
     }
