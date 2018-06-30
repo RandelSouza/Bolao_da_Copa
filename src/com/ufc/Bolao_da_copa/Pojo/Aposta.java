@@ -12,7 +12,7 @@ public class Aposta {
     private Integer pontos_usuario;               // Ainda não esta sendo utilizado.
     private int pid;                              // Identificador da partida.
     private int aid;                              // Identificador da aposta.
-    private String pesquisa;
+    private String pesquisa;                      // Guarda a pesquisa.
 
     public String getPesquisa() {
         return pesquisa;
