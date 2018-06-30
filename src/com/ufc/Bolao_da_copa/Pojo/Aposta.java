@@ -44,6 +44,7 @@ public class Aposta {
         this.pid = pid;
     }
     
+    // Obtem o identificador do usuário.
     public Integer getUid() {
         return uid;
     }
