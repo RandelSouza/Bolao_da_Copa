@@ -64,6 +64,7 @@ public class Aposta {
         this.palpite_gols_time_visitante = palpite_gols_time_visitante;
     }
 
+     // Obtem o palpite de gols do time da casa.
     public Integer getPalpite_gols_time_casa() {
         return palpite_gols_time_casa;
     }
