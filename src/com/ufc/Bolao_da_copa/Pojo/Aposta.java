@@ -74,6 +74,7 @@ public class Aposta {
         this.palpite_gols_time_casa = palpite_gols_time_casa;
     }
 
+    // Obtem o empate.
     public boolean isEmpate() {
         return empate;
     }
