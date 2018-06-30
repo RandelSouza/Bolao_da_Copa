@@ -79,6 +79,7 @@ public class Aposta {
         return empate;
     }
 
+    // Atribui um valor booleano para o empate.
     public void setEmpate(boolean empate) {
         this.empate = empate;
     }
