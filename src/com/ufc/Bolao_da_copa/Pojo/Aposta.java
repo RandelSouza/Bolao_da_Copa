@@ -84,6 +84,7 @@ public class Aposta {
         this.empate = empate;
     }
 
+    // Obtem os pontos do usuário.
     public Integer getPontos_usuario() {
         return pontos_usuario;
     }
