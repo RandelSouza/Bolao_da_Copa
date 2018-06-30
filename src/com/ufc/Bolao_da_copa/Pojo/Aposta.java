@@ -54,6 +54,7 @@ public class Aposta {
         this.uid = uid;
     }
 
+    // Obtem o palpite de gols do time Visitante.
     public Integer getPalpite_gols_time_visitante() {
         return palpite_gols_time_visitante;
     }
