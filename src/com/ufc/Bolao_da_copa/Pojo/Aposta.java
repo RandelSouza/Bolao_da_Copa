@@ -49,6 +49,7 @@ public class Aposta {
         return uid;
     }
 
+    // Atribui o identificador do usuário.
     public void setUid(Integer uid) {
         this.uid = uid;
     }
