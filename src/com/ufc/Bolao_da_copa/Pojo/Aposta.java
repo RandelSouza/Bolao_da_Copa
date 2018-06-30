@@ -18,7 +18,8 @@ public class Aposta {
     public String getPesquisa() {
         return pesquisa;
     }
-
+     
+    // Seta a pesquisa.
     public void setPesquisa(String pesquisa) {
         this.pesquisa = pesquisa;
     }
