@@ -6,7 +6,7 @@ package com.ufc.Bolao_da_copa.Pojo;
 public class Aposta {  
      
     private Integer uid;                          // Identificador do usuário.
-    private Integer palpite_gols_time_visitante;
+    private Integer palpite_gols_time_visitante;  // Guardará o palpite de gols para o time visitante.
     private Integer palpite_gols_time_casa;
     private boolean empate;
     private Integer pontos_usuario;
