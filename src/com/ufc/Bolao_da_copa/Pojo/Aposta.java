@@ -29,6 +29,7 @@ public class Aposta {
         return aid;
     }
 
+    // Seta o identificador da aposta.
     public void setAid(int aid) {
         this.aid = aid;
     }
