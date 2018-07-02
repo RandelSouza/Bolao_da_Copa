@@ -15,6 +15,9 @@ import javax.swing.JOptionPane;
  *
  * @author randel
  */
+// Os métodos de inserção, exclusão, edição e seleção necessitam de objetos Partida que são preenchidos com informações 
+// vindas da interação com o usuário. Esta interação é criada apartir de janelas swing e outros componentes de interação 
+// gráfica com o usuário.
 public class PartidaDao {
     ConnectionFactory connect = new ConnectionFactory();    
     int lastId;
